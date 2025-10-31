@@ -23,6 +23,7 @@ This project corresponds to **Phase A** of my master’s thesis and future PhD p
 ### **1. Data Preprocessing (Quality Control)**
 Perform quality control (QC) to remove low-quality cells and potential doublets.  
 The following violin and scatter plots illustrate the effect of QC metrics (`nFeature_RNA`, `nCount_RNA`, and `percent.mt`) before filtering.  
+
 **Before filtering:**  
 <p align="center">
   <img src="figures/PNG/qc_vlnplot_before_filtering.png" width="47%"">
