@@ -31,7 +31,7 @@ The following violin and scatter plots illustrate the effect of QC metrics (`nFe
 </p>
 
 <p align="center">
-  <em>Before filtering: violin plots (left) and scatter plots (right) showing raw QC metrics.</em>
+  <em>Before filtering: violin plots (left) and scatter plots (right) showing raw QC metrics</em>
 </p>
 <br>
 
@@ -42,7 +42,7 @@ The following violin and scatter plots illustrate the effect of QC metrics (`nFe
 </p>
 
 <p align="center">
-  <em>After filtering: improved metric distributions and removal of low-quality cells.</em>
+  <em>After filtering: improved metric distributions and removal of low-quality cells</em>
 </p>
 
 Highly variable genes: *Red dots indicate genes selected for subsequent principal component analysis (PCA) and clustering analysis.*  
@@ -51,7 +51,7 @@ Highly variable genes: *Red dots indicate genes selected for subsequent principa
 </p>
 
 <p align="center">
-  <em>Scatter plot showing variable feature selection after normalization.</em>
+  <em>Scatter plot showing variable feature selection after normalization</em>
 </p>
 
 ### **2. Dimensionality Reduction and Clustering**  
@@ -63,7 +63,7 @@ Perform **PCA** and **UMAP** to identify the optimal clustering resolution and g
 </p>
 
 <p align="center">
-  <em>PCA of cells by sample (left) and the elbow plot for PC selection (right).</em>
+  <em>PCA of cells by sample (left) and the elbow plot for PC selection (right)</em>
 </p>
 <br>
 
@@ -73,7 +73,7 @@ Perform **PCA** and **UMAP** to identify the optimal clustering resolution and g
 </p>
 
 <p align="center">
-  <em>UMAP clustering at different resolutions.</em>
+  <em>UMAP clustering at different resolutions</em>
 </p>
 
 <p align="center">
@@ -81,7 +81,7 @@ Perform **PCA** and **UMAP** to identify the optimal clustering resolution and g
 </p>
 
 <p align="center">
-  <em>Final UMAP clustering (resolution = 0.8).</em>
+  <em>Final UMAP clustering (resolution = 0.8)</em>
 </p>
 <br>
 
@@ -92,7 +92,7 @@ Perform **PCA** and **UMAP** to identify the optimal clustering resolution and g
 </p>
 
 <p align="center">
-  <em>Left:</em> UMAP colored by sample. <em>Right:</em> UMAP colored by time.
+  <em>Left:</em> UMAP colored by sample <em>Right:</em> UMAP colored by time
 </p>
 
 ### **3. Cell Type Annotation**
@@ -106,7 +106,7 @@ To validate cluster annotations, we used **FeaturePlot**, **DotPlot**, and **Vln
 </p>
 
 <p align="center">
-  <em>FeaturePlot of monocyte markers (CD14, LYZ, FPR1).</em>
+  <em>FeaturePlot of monocyte markers (CD14, LYZ, FPR1)</em>
 </p>
 <br>
 
@@ -117,8 +117,8 @@ To validate cluster annotations, we used **FeaturePlot**, **DotPlot**, and **Vln
 </p>
 
 <p align="center">
-  <em>Left:</em>  DotPlot showing canonical marker expression across clusters. 
-  <em>Right:</em>  VlnPlot showing expression variability among canonical markers.
+  <em>Left:</em>  DotPlot showing canonical marker expression across clusters 
+  <em>Right:</em>  VlnPlot showing expression variability among canonical markers
 </p>
 
 **Cluster-level heatmap & Cell-type annotated heatmap**  
@@ -128,8 +128,8 @@ To validate cluster annotations, we used **FeaturePlot**, **DotPlot**, and **Vln
 </p>
 
 <div align="center">
-  <em><strong>Left:</strong></em> Top 3 markers per unsupervised cluster.<br>
-  <em><strong>Right:</strong></em> Top 3 markers per annotated immune cell type.
+  <em><strong>Left:</strong></em> Top 3 markers per unsupervised cluster<br>
+  <em><strong>Right:</strong></em> Top 3 markers per annotated immune cell type
 </div>
 
 ### **4. Differential Expression and Functional Enrichment**
@@ -143,7 +143,7 @@ Use `FindMarkers()` to identify **differentially expressed genes (DEGs)** and vi
 </p>
 
 <p align="center">
-  <em>Volcano plot of DEGs in CD4⁺ T cells (AML vs Healthy).</em>
+  <em>Volcano plot of DEGs in CD4⁺ T cells (AML vs Healthy)</em>
 </p>
 <br>
 
@@ -154,7 +154,7 @@ Use `FindMarkers()` to identify **differentially expressed genes (DEGs)** and vi
 </p>
 
 <p align="center">
-  <em>GO (Biological Process) enrichment analysis of upregulated genes:   barplot (left) and dotplot (right).</em>
+  <em>GO (Biological Process) enrichment analysis of upregulated genes:   barplot (left) and dotplot (right)</em>
 </p>
 <br>
 
@@ -165,7 +165,7 @@ Use `FindMarkers()` to identify **differentially expressed genes (DEGs)** and vi
 </p>
 
 <p align="center">
-  <em>KEGG pathway enrichment analysis of upregulated genes:   barplot (left) and dotplot (right).</em>
+  <em>KEGG pathway enrichment analysis of upregulated genes:   barplot (left) and dotplot (right)</em>
 </p>
 
 ## **Key Findings**
