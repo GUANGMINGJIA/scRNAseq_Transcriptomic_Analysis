@@ -120,8 +120,8 @@ To validate cluster annotations, we used **FeaturePlot**, **DotPlot**, and **Vln
 </div>
 
 ### **4. Differential Expression and Functional Enrichment**
-(1) Focus on **CD4⁺ T cells**, comparing **AML patients vs healthy controls**.  
-(2) Use `FindMarkers()` to identify **differentially expressed genes (DEGs)** and visualize them using a **volcano plot**.  
+Focus on **CD4⁺ T cells**, comparing **AML patients vs healthy controls**.  
+Use `FindMarkers()` to identify **differentially expressed genes (DEGs)** and visualize them using a **volcano plot**.  
 
 **Volcano Plot:**
 <p align="center">
