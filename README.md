@@ -128,8 +128,8 @@ To validate cluster annotations, we used **FeaturePlot**, **DotPlot**, and **Vln
 </p>
 
 <div align="center">
-*Left:*  Top 3 markers per unsupervised cluster.&nbsp;&nbsp;&nbsp;&nbsp;  
-*Right:*  Top 3 markers per annotated immune cell type.
+  <em><strong>Left:</strong></em> Top 3 markers per unsupervised cluster.<br>
+  <em><strong>Right:</strong></em> Top 3 markers per annotated immune cell type.
 </div>
 
 ### **4. Differential Expression and Functional Enrichment**
