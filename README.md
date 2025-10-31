@@ -84,8 +84,8 @@ Perform **PCA** and **UMAP** to identify the optimal clustering resolution and g
 </p>
 
 ### **3. Cell Type Annotation**
-(1) Calculate **marker genes** for each cluster and compare them with reference marker gene dictionaries.  
-(2) To validate cluster annotations, we used **FeaturePlot**, **DotPlot**, and **VlnPlot** to visualize representative marker genes.  
+Calculate **marker genes** for each cluster and compare them with reference marker gene dictionaries.  
+To validate cluster annotations, we used **FeaturePlot**, **DotPlot**, and **VlnPlot** to visualize representative marker genes.  
 
 **Representative Feature Plots:**  
 <br>
