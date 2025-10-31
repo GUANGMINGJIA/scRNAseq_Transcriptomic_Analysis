@@ -20,8 +20,7 @@ This project corresponds to **Phase A** of my master’s thesis and future PhD p
 </p>
 
 ## **Analysis Workflow:**
-### **1. Data Preprocessing (Quality Control)**  
-
+### **1. Data Preprocessing (Quality Control)**
 Perform quality control (QC) to remove low-quality cells and potential doublets.  
 The following violin and scatter plots illustrate the effect of QC metrics (`nFeature_RNA`, `nCount_RNA`, and `percent.mt`) before filtering.  
 
@@ -148,7 +147,7 @@ Use `FindMarkers()` to identify **differentially expressed genes (DEGs)** and vi
 </p>
 <br>
 
-**GO富集分析图**  
+**GO Enrichment Plot**  
 <p align="center">
   <img src="figures/PNG/go_barplot.png" style="width:49%; height:auto;">
   <img src="figures/PNG/go_dotplot.png" style="width:49%; height:auto;">
@@ -159,7 +158,7 @@ Use `FindMarkers()` to identify **differentially expressed genes (DEGs)** and vi
 </p>
 <br>
 
-**KEGG富集分析图**  
+**KEGG Enrichment Plot**  
 <p align="center">
   <img src="figures/PNG/kegg_barplot.png" style="width:49%; height:auto;">
   <img src="figures/PNG/kegg_dotplot.png" style="width:49%; height:auto;">
