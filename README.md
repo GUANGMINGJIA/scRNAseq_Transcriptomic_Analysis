@@ -150,15 +150,14 @@ Perform **PCA** and **UMAP** to identify the optimal clustering resolution and g
 </p>
 
 ## **Key Findings:**
-Functional enrichment analysis of **CD4⁺ T cells** revealed significant **transcriptional reprogramming** in **AML patients**.  
-The **GO** results showed significant enrichment in biological processes such as **RNA localization**, **cytoplasmic translation**, **DNA replication**, and **ribosome biogenesis**,suggesting **enhanced transcriptional and protein synthesis activity** in **CD4⁺ T cells**.  
-The **KEGG** analysis further indicated enrichment in **cell cycle–related pathways** (e.g., **DNA replication, repair, and autophagy**),demonstrating that **CD4⁺ T cells in the AML microenvironment exhibit abnormal activation and hyperproliferative characteristics**.  
-Together, these findings suggest that **CD4⁺ T cells in AML may enter a state of excessive activation and dysregulated cell cycling**.  
+(1) Functional enrichment analysis of **CD4⁺ T cells** revealed significant **transcriptional reprogramming** in **AML patients**.  
+(2) The **GO** results showed significant enrichment in biological processes such as **RNA localization**, **cytoplasmic translation**, **DNA replication**, and **ribosome biogenesis**,suggesting **enhanced transcriptional and protein synthesis activity** in **CD4⁺ T cells**.  
+(3) The **KEGG** analysis further indicated enrichment in **cell cycle–related pathways** (e.g., **DNA replication, repair, and autophagy**),demonstrating that **CD4⁺ T cells in the AML microenvironment exhibit abnormal activation and hyperproliferative characteristics**.  
+(4) Together, these findings suggest that **CD4⁺ T cells in AML may enter a state of excessive activation and dysregulated cell cycling**.  
 
-## **Analysis Environment and Dependencies: **  
+## **Analysis Environment and Dependencies:**   
 The analysis was conducted in **R 4.4**, using **renv** for package version and dependency management.  
-It was executed within **Visual Studio Code (VSC)**using the **Jupyter** extension,  
-ensuring a fully reproducible single-cell analysis environment. (Code is available in the `.ipynb` file located in the project root directory.)
+It was executed within **Visual Studio Code (VSC)** using the **Jupyter** extension,ensuring a fully reproducible single-cell analysis environment. (Code is available in the `.ipynb` file located in the project root directory.)  
 
 **Main R Packages Used:**  
 **Seurat:** For quality control, normalization, clustering, and visualization of single-cell transcriptomic data.  
