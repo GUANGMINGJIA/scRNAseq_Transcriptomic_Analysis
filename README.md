@@ -21,8 +21,8 @@ This project corresponds to **Phase A** of my master’s thesis and future PhD p
 
 ## **Analysis Workflow:**
 ### **1. Data Preprocessing (Quality Control)**
-Perform quality control (QC) to remove low-quality cells and potential doublets.  
-The following violin and scatter plots illustrate the effect of QC metrics (`nFeature_RNA`, `nCount_RNA`, and `percent.mt`) before filtering.  
+(1) Perform quality control (QC) to remove low-quality cells and potential doublets.  
+(2) The following violin and scatter plots illustrate the effect of QC metrics (`nFeature_RNA`, `nCount_RNA`, and `percent.mt`) before filtering.  
 
 **Before filtering:**  
 <p align="center">
@@ -84,8 +84,8 @@ Perform **PCA** and **UMAP** to identify the optimal clustering resolution and g
 </p>
 
 ### **3. Cell Type Annotation**
-Calculate **marker genes** for each cluster and compare them with reference marker gene dictionaries.  
-To validate cluster annotations, we used **FeaturePlot**, **DotPlot**, and **VlnPlot** to visualize representative marker genes.  
+(1) Calculate **marker genes** for each cluster and compare them with reference marker gene dictionaries.  
+(2) To validate cluster annotations, we used **FeaturePlot**, **DotPlot**, and **VlnPlot** to visualize representative marker genes.  
 
 **Representative Feature Plots:**  
 <br>
@@ -120,8 +120,8 @@ To validate cluster annotations, we used **FeaturePlot**, **DotPlot**, and **Vln
 </div>
 
 ### **4. Differential Expression and Functional Enrichment**
-Focus on **CD4⁺ T cells**, comparing **AML patients vs healthy controls**.  
-Use `FindMarkers()` to identify **differentially expressed genes (DEGs)** and visualize them using a **volcano plot**.  
+(1) Focus on **CD4⁺ T cells**, comparing **AML patients vs healthy controls**.  
+(2) Use `FindMarkers()` to identify **differentially expressed genes (DEGs)** and visualize them using a **volcano plot**.  
 
 **Volcano Plot:**
 <p align="center">
