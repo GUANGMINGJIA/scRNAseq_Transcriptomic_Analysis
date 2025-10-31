@@ -5,9 +5,9 @@ it completes the full pipeline from **quality control** to **enrichment analysis
 Results reveal that **CD4⁺ T cells in AML patients exhibit abnormal hyperactivation and proliferative signaling**, providing new insights into the mechanisms of immune evasion.  
   
 This project corresponds to **Phase A** of my master’s thesis and future PhD proposal, representing the **first stage** of my planned “three-phase technical roadmap”:  
-- A Single-cell RNA-seq workflow: quality control, clustering, differential expression, and enrichment analysis  
-- B Multi-omics and drug extension: integrating scATAC analysis and transcriptional regulation prediction  
-- C Clinical and spatial integration: combining single-cell with spatial transcriptomics or clinical prognosis data to evaluate spatial distribution and clinical significance of cell populations  
+- **A Single-cell RNA-seq workflow:** quality control, clustering, differential expression, and enrichment analysis  
+- **B Multi-omics and drug extension:** integrating scATAC analysis and transcriptional regulation prediction  
+- **C Clinical and spatial integration:** combining single-cell with spatial transcriptomics or clinical prognosis data to evaluate spatial distribution and clinical significance of cell populations  
 
 ## **Main Research Topics (Phase A):**  
 1. Identify the major immune microenvironmental cell types present in AML  
