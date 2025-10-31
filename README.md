@@ -10,9 +10,9 @@ This project corresponds to **Phase A** of my master’s thesis and future PhD p
 - **C Clinical and spatial integration:** combining single-cell with spatial transcriptomics or clinical prognosis data to evaluate spatial distribution and clinical significance of cell populations  
 
 ## **Main Research Topics (Phase A):**  
-1. Identify the major immune microenvironmental cell types present in AML  
-2. Characterize abnormally activated or proliferative immune cell subtypes under disease conditions  
-3. Investigate key genes and signaling pathways involved in immune regulation  
+1. **Identify** the major **immune microenvironmental cell types** present in AML  
+2. **Characterize abnormally activated** or **proliferative immune cell subtypes** under disease conditions  
+3. **Investigate key genes** and **signaling pathways** involved in **immune regulation**  
 
 ## **Technical Roadmap:**  
 <p align="center">
