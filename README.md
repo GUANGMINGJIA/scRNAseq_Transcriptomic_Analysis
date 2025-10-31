@@ -21,8 +21,8 @@ This project corresponds to **Phase A** of my master’s thesis and future PhD p
 
 ## **Analysis Workflow:**
 ### **1. Data Preprocessing (Quality Control)**
-(1) Perform quality control (QC) to remove low-quality cells and potential doublets.  
-(2) The following violin and scatter plots illustrate the effect of QC metrics (`nFeature_RNA`, `nCount_RNA`, and `percent.mt`) before filtering.  
+Perform quality control (QC) to remove low-quality cells and potential doublets.  
+The following violin and scatter plots illustrate the effect of QC metrics (`nFeature_RNA`, `nCount_RNA`, and `percent.mt`) before filtering.  
 
 **Before filtering:**  
 <p align="center">
@@ -40,6 +40,7 @@ This project corresponds to **Phase A** of my master’s thesis and future PhD p
   <img src="figures/PNG/qc_vlnplot_after_filtering.png" width="47%"">
   <img src="figures/PNG/qc_scatter_plots_after_filtering.png" width="48%">
 </p>
+
 <p align="center">
   <em>After filtering: improved metric distributions and removal of low-quality cells.</em>
 </p>
@@ -48,6 +49,7 @@ Highly variable genes: *Red dots indicate genes selected for subsequent principa
 <p align="center">
   <img src="figures/PNG/variable_feature_plot.png" width="60%">
 </p>
+
 <p align="center">
   <em>Scatter plot showing variable feature selection after normalization.</em>
 </p>
@@ -59,19 +61,28 @@ Perform **PCA** and **UMAP** to identify the optimal clustering resolution and g
 <p align="center">
   <img src="figures/PNG/pca_and_elbow_plot.png" style="width:70%; height:auto;">
 </p>
-<p align="center"><em>PCA of cells by sample (left) and the elbow plot for PC selection (right).</em></p>
+
+<p align="center">
+  <em>PCA of cells by sample (left) and the elbow plot for PC selection (right).</em>
+</p>
 <br>
 
 **Finding the Optimal Clustering Resolution**  
 <p align="center">
   <img src="figures/PNG/umap_clustering_resolutions.png" style="width:70%; height:auto;">
 </p>
-<p align="center"><em>UMAP clustering at different resolutions.</em></p>
+
+<p align="center">
+  <em>UMAP clustering at different resolutions.</em>
+</p>
 
 <p align="center">
   <img src="figures/PNG/umap_clustering_final.png" style="width:40%; height:auto;">
 </p>
-<p align="center"><em>Final UMAP clustering (resolution = 0.8).</em></p>
+
+<p align="center">
+  <em>Final UMAP clustering (resolution = 0.8).</em>
+</p>
 <br>
 
 **UMAP Validation: Sample and Time**  
@@ -79,13 +90,14 @@ Perform **PCA** and **UMAP** to identify the optimal clustering resolution and g
   <img src="figures/PNG/umap_by_sample.png" style="width:45%; height:auto; margin-right:2%;">
   <img src="figures/PNG/umap_by_time.png"   style="width:45%; height:auto;">
 </p>
+
 <p align="center">
   <em>Left:</em> UMAP colored by sample. <em>Right:</em> UMAP colored by time.
 </p>
 
 ### **3. Cell Type Annotation**
-(1) Calculate **marker genes** for each cluster and compare them with reference marker gene dictionaries.  
-(2) To validate cluster annotations, we used **FeaturePlot**, **DotPlot**, and **VlnPlot** to visualize representative marker genes.  
+Calculate **marker genes** for each cluster and compare them with reference marker gene dictionaries.  
+To validate cluster annotations, we used **FeaturePlot**, **DotPlot**, and **VlnPlot** to visualize representative marker genes.  
 
 **Representative Feature Plots:**  
 <br>
@@ -103,6 +115,7 @@ Perform **PCA** and **UMAP** to identify the optimal clustering resolution and g
   <img src="figures/PNG/dotplot_canonical_markers.png" width="52%" style="margin-right:2%;">
   <img src="figures/PNG/vlnplot_canonical_markers.png" width="38%">
 </p>
+
 <p align="center">
   <em>Left:</em>  DotPlot showing canonical marker expression across clusters. 
   <em>Right:</em>  VlnPlot showing expression variability among canonical markers.
@@ -113,39 +126,44 @@ Perform **PCA** and **UMAP** to identify the optimal clustering resolution and g
   <img src="figures/PNG/Heatmap_Top3_by_Cluster.png" width="49%" style="margin-right:2%;">
   <img src="figures/PNG/Final_Heatmap_Top3_Markers_by_Celltype.png" width="48%">
 </p>
+
 <div align="center">
-  
 *Left:*  Top 3 markers per unsupervised cluster.&nbsp;&nbsp;&nbsp;&nbsp;  
 *Right:*  Top 3 markers per annotated immune cell type.
 </div>
 
 ### **4. Differential Expression and Functional Enrichment**
-(1) Focus on **CD4⁺ T cells**, comparing **AML patients vs healthy controls**.  
-(2) Use `FindMarkers()` to identify **differentially expressed genes (DEGs)** and visualize them using a **volcano plot**.  
+Focus on **CD4⁺ T cells**, comparing **AML patients vs healthy controls**.  
+Use `FindMarkers()` to identify **differentially expressed genes (DEGs)** and visualize them using a **volcano plot**.  
 
 **Volcano Plot:**
 <p align="center">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="figures/PNG/volcano_plot_CD4+_T-cell.png" style="width:60%; height:auto;">
 </p>
+
 <p align="center">
   <em>Volcano plot of DEGs in CD4⁺ T cells (AML vs Healthy).</em>
 </p>
 <br>
 
+**GO富集分析图**  
 <p align="center">
   <img src="figures/PNG/go_barplot.png" style="width:49%; height:auto;">
   <img src="figures/PNG/go_dotplot.png" style="width:49%; height:auto;">
 </p>
+
 <p align="center">
   <em>GO (Biological Process) enrichment analysis of upregulated genes:   barplot (left) and dotplot (right).</em>
 </p>
 <br>
 
+**KEGG富集分析图**  
 <p align="center">
   <img src="figures/PNG/kegg_barplot.png" style="width:49%; height:auto;">
   <img src="figures/PNG/kegg_dotplot.png" style="width:49%; height:auto;">
 </p>
+
 <p align="center">
   <em>KEGG pathway enrichment analysis of upregulated genes:   barplot (left) and dotplot (right).</em>
 </p>
