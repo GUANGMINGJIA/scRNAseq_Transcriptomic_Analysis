@@ -152,8 +152,7 @@ Perform **PCA** and **UMAP** to identify the optimal clustering resolution and g
 ## **Key Findings:**
 Functional enrichment analysis of **CD4⁺ T cells** revealed significant **transcriptional reprogramming** in **AML patients**.  
 The **GO** results showed significant enrichment in biological processes such as **RNA localization**, **cytoplasmic translation**, **DNA replication**, and **ribosome biogenesis**,suggesting **enhanced transcriptional and protein synthesis activity** in **CD4⁺ T cells**.  
-The **KEGG** analysis further indicated enrichment in **cell cycle–related pathways** (e.g., **DNA replication, repair, and autophagy**),  
-demonstrating that **CD4⁺ T cells in the AML microenvironment exhibit abnormal activation and hyperproliferative characteristics**.
+The **KEGG** analysis further indicated enrichment in **cell cycle–related pathways** (e.g., **DNA replication, repair, and autophagy**),demonstrating that **CD4⁺ T cells in the AML microenvironment exhibit abnormal activation and hyperproliferative characteristics**.  
 Together, these findings suggest that **CD4⁺ T cells in AML may enter a state of excessive activation and dysregulated cell cycling**.  
 
 ## **Analysis Environment and Dependencies: **  
