@@ -20,7 +20,8 @@ This project corresponds to **Phase A** of my master’s thesis and future PhD p
 </p>
 
 ## **Analysis Workflow:**
-### **1. Data Preprocessing (Quality Control)**
+### **1. Data Preprocessing (Quality Control)**  
+
 Perform quality control (QC) to remove low-quality cells and potential doublets.  
 The following violin and scatter plots illustrate the effect of QC metrics (`nFeature_RNA`, `nCount_RNA`, and `percent.mt`) before filtering.  
 
