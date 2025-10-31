@@ -9,22 +9,22 @@ This project corresponds to **Phase A** of my master’s thesis and future PhD p
 - **B Multi-omics and drug extension:** integrating scATAC analysis and transcriptional regulation prediction  
 - **C Clinical and spatial integration:** combining single-cell with spatial transcriptomics or clinical prognosis data to evaluate spatial distribution and clinical significance of cell populations  
 
-## **Main Research Topics (Phase A):**  
+## **Main Research Topics (Phase A)**  
 1. **Identify** the major **immune microenvironmental cell types** present in AML  
 2. **Characterize abnormally activated** or **proliferative immune cell subtypes** under disease conditions  
 3. **Investigate key genes** and **signaling pathways** involved in **immune regulation**  
 
-## **Technical Roadmap:**  
+## **Technical Roadmap**  
 <p align="center">
   <img src="figures/PNG/flow_diagram.png" width="700">
 </p>
 
-## **Analysis Workflow:**
+## **Analysis Workflow**
 ### **1. Data Preprocessing (Quality Control)**
 Perform quality control (QC) to remove low-quality cells and potential doublets.  
 The following violin and scatter plots illustrate the effect of QC metrics (`nFeature_RNA`, `nCount_RNA`, and `percent.mt`) before filtering.  
 
-**Before filtering:**  
+**Before filtering**  
 <p align="center">
   <img src="figures/PNG/qc_vlnplot_before_filtering.png" width="47%"">
   <img src="figures/PNG/qc_scatter_plots.png" width="48%">
@@ -35,7 +35,7 @@ The following violin and scatter plots illustrate the effect of QC metrics (`nFe
 </p>
 <br>
 
-**After filtering:**  
+**After filtering**  
 <p align="center">
   <img src="figures/PNG/qc_vlnplot_after_filtering.png" width="47%"">
   <img src="figures/PNG/qc_scatter_plots_after_filtering.png" width="48%">
@@ -99,7 +99,7 @@ Perform **PCA** and **UMAP** to identify the optimal clustering resolution and g
 Calculate **marker genes** for each cluster and compare them with reference marker gene dictionaries.  
 To validate cluster annotations, we used **FeaturePlot**, **DotPlot**, and **VlnPlot** to visualize representative marker genes.  
 
-**Representative Feature Plots:**  
+**Representative Feature Plots**  
 <br>
 <p align="center">
   <img src="figures/PNG/featureplot_monocytes.png" width="70%">
@@ -110,7 +110,7 @@ To validate cluster annotations, we used **FeaturePlot**, **DotPlot**, and **Vln
 </p>
 <br>
 
-**Violin Plot and Dot Plot:**  
+**Violin Plot and Dot Plot**  
 <p align="center">
   <img src="figures/PNG/dotplot_canonical_markers.png" width="52%" style="margin-right:2%;">
   <img src="figures/PNG/vlnplot_canonical_markers.png" width="38%">
@@ -121,7 +121,7 @@ To validate cluster annotations, we used **FeaturePlot**, **DotPlot**, and **Vln
   <em>Right:</em>  VlnPlot showing expression variability among canonical markers.
 </p>
 
-**Cluster-level heatmap & Cell-type annotated heatmap:**  
+**Cluster-level heatmap & Cell-type annotated heatmap**  
 <p align="center">
   <img src="figures/PNG/Heatmap_Top3_by_Cluster.png" width="49%" style="margin-right:2%;">
   <img src="figures/PNG/Final_Heatmap_Top3_Markers_by_Celltype.png" width="48%">
@@ -136,7 +136,7 @@ To validate cluster annotations, we used **FeaturePlot**, **DotPlot**, and **Vln
 Focus on **CD4⁺ T cells**, comparing **AML patients vs healthy controls**.  
 Use `FindMarkers()` to identify **differentially expressed genes (DEGs)** and visualize them using a **volcano plot**.  
 
-**Volcano Plot:**
+**Volcano Plot**
 <p align="center">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="figures/PNG/volcano_plot_CD4+_T-cell.png" style="width:60%; height:auto;">
@@ -168,17 +168,17 @@ Use `FindMarkers()` to identify **differentially expressed genes (DEGs)** and vi
   <em>KEGG pathway enrichment analysis of upregulated genes:   barplot (left) and dotplot (right).</em>
 </p>
 
-## **Key Findings:**
+## **Key Findings**
 (1) Functional enrichment analysis of **CD4⁺ T cells** revealed significant **transcriptional reprogramming** in **AML patients**.  
 (2) The **GO** results showed significant enrichment in biological processes such as **RNA localization**, **cytoplasmic translation**, **DNA replication**, and **ribosome biogenesis**, suggesting **enhanced transcriptional and protein synthesis activity** in **CD4⁺ T cells**.  
 (3) The **KEGG** analysis further indicated enrichment in **cell cycle–related pathways** (e.g., **DNA replication, repair, and autophagy**), demonstrating that **CD4⁺ T cells in the AML microenvironment exhibit abnormal activation and hyperproliferative characteristics**.  
 (4) Together, these findings suggest that **CD4⁺ T cells in AML may enter a state of excessive activation and dysregulated cell cycling**.  
 
-## **Analysis Environment and Dependencies:**   
+## **Analysis Environment and Dependencies**   
 The analysis was conducted in **R 4.4**, using **renv** for package version and dependency management.  
 It was executed within **Visual Studio Code (VSC)** using the **Jupyter** extension,ensuring a fully reproducible single-cell analysis environment. (Code is available in the `.ipynb` file located in the project root directory.)  
 
-**Main R Packages Used:**  
+**Main R Packages Used**  
 **Seurat:** For quality control, normalization, clustering, and visualization of single-cell transcriptomic data.  
 **clusterProfiler:** For gene set enrichment analysis and KEGG / GO functional annotation.  
 **ggplot2:** For high-quality, publication-ready data visualization.  
