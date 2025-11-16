@@ -132,6 +132,15 @@ To validate cluster annotations, we used **FeaturePlot**, **DotPlot**, and **Vln
   <em><strong>Right:</strong></em> Top 3 markers per annotated immune cell type
 </div>
 
+**Cell-type annotated UMAP**  
+<p align="center">
+  <img src="figures/PNG/umap_annotated_cell_types.png" width="48%">
+</p>
+
+<div align="center">
+  <em><strong>Left:</strong></em> UMAP of Cell Types (annotated) cluster<br>
+</div>
+
 ### **4. Differential Expression and Functional Enrichment**
 Focus on **CD4⁺ T cells**, comparing **AML patients vs healthy controls**.  
 Use `FindMarkers()` to identify **differentially expressed genes (DEGs)** and visualize them using a **volcano plot**.  
