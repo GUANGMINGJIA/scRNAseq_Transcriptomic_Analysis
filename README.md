@@ -138,7 +138,7 @@ To validate cluster annotations, we used **FeaturePlot**, **DotPlot**, and **Vln
 </p>
 
 <div align="center">
-  <em><strong>Left:</strong></em> UMAP of Cell Types (annotated) cluster<br>
+  <em>UMAP of Cell Types (annotated)</em>
 </div>
 
 ### **4. Differential Expression and Functional Enrichment**
